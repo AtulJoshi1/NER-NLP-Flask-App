@@ -1,0 +1,28 @@
+<html>
+
+    <head>
+
+        <title>{{ title }}</title>
+
+    </head>
+
+    <body>
+
+        
+
+        <hr>
+
+        <h1>Hello! Input your text and extract Named Entities!</h1>
+
+        <form action = "http://localhost:5000/result" method="POST">
+        <label for="inputText">Enter your text:</label>
+        <input type="text" id="inp" name="inputText">
+        <input type="submit" value="List of Named Entities" name = "submit" formmethod="post">
+        <input type="submit" value="Visualize Named Entities" name = "visualize" formmethod="post" formaction ="http://localhost:5000/display">
+        <input type="submit" value="Visualize Dependency" name = "dependency" formmethod="post" formaction ="http://localhost:5000/display_dep">
+        
+
+        </form>
+    </body>
+
+</html>
