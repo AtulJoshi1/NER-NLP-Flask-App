@@ -1,2 +1,2 @@
 # NER-NLP-Flask-App
-A Flask app to extract Named Entities and visualize dependencies for an input text.
+A Flask web-app to extract Named Entities and visualize dependencies for an input text.
